@@ -154,38 +154,6 @@ class App extends Component {
 						}
 					]
       },
-        {
-					id: uuidv4(),
-					contactName: "Dad",
-					contactPhoto: "",
-					selected: false,
-					chatHistory: [
-						{
-							messageType: "inMessage",
-							messageText: "Hey. You have to buy bread and eggs!",
-							messageDate: {
-								yy:2022,
-								mm: 8,
-								dd: 26,
-								hh: 12,
-								min: 30,
-								sec: 0
-							}
-						},
-						{
-							messageType: "outMessage",
-							messageText: "Ok!",
-							messageDate: {
-								yy:2022,
-								mm: 8,
-								dd: 26,
-								hh: 12,
-								min: 31,
-								sec: 0
-							}
-						}
-					]
-				}
 			]
 		;
 
