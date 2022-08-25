@@ -1,0 +1,96 @@
+.contacts{
+    box-sizing: border-box;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        width: 400px;
+        border-right: 1px solid #b1b1b1;
+        border-left: 1px solid #b1b1b1;
+}
+
+.contactsList{
+    height: calc(100vh - 175px);
+        overflow: auto;
+}
+.user{
+    height: 150px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #b1b1b1 ;
+}
+
+.title{
+        font-weight: 400;
+            font-size: 32px;
+            color: #009ef0;
+            margin: 50px 20px;
+
+}
+
+.input{
+    outline: none;
+    width: 320px;
+        padding-left: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+            border: 1px solid transparent;
+            border-radius: 15px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+
+}
+
+.inputContainer{
+    position: relative;
+    width: 320px;
+   
+}
+
+.search{
+    width: 18px;
+    height: 18px;
+top: 57%;
+    left: 4%;
+    position: absolute;
+}
+
+.list{
+border: 1px solid #f5f5f5;
+padding: 5px;
+cursor: pointer;
+transition: background-color .2s linear;
+
+
+}
+.item{
+    display: flex;
+        justify-content: space-between;
+    
+    position: relative;
+    
+    
+}
+.list:hover,
+.list:focus{
+background-color: #f5f5f5;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.itemContainer{
+    display: flex;
+}
+
+.contact h4 {
+    font-size: 16px;
+}
+
+.date{
+    font-size: 12px;
+}
+

@@ -1,0 +1,51 @@
+div .outMessage {
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-end;
+max-width: 200px;
+
+}
+
+div .outMessage {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-end;
+    max-width: 200px;
+
+}
+
+div .inMessage {
+    display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+  color: white;
+max-width: 200px;
+}
+
+.outMessage p {
+  padding: 10px;
+  color: black;
+  background-color: rgba(2, 0, 0, 0.15);
+  border: 1px solid rgba(2, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+.inMessage p {
+    padding: 10px;
+  background-color: rgba(2, 0, 0, 0.55);
+  border: 1px solid rgba(2, 0, 0, 0.55);
+  border-radius: 15px;
+  color: white;
+}
+
+.outMessage img{
+    display: none;
+}
+
+.inMessage img {
+    margin-right: 5px;
+}
+
+
+
