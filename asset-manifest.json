@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chat-test/static/css/main.5d672510.css",
+    "main.js": "/chat-test/static/js/main.ce2170fc.js",
+    "static/media/avatar.png": "/chat-test/static/media/avatar.961568814dceb733c85a.png",
+    "index.html": "/chat-test/index.html",
+    "main.5d672510.css.map": "/chat-test/static/css/main.5d672510.css.map",
+    "main.ce2170fc.js.map": "/chat-test/static/js/main.ce2170fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d672510.css",
+    "static/js/main.ce2170fc.js"
+  ]
+}
